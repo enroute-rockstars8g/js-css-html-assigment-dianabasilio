@@ -21,11 +21,18 @@ body{
     background-color: #ffccd5;
     box-shadow: 0px 10px 10px rgb(100, 100, 100);
 }
+.square{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 2px;
+    border: 1px solid #c8c8c8;
+  }
 
 button{
     background-color: #ff8fa3;
     padding: 5px;
-    margin-top: 10px;
+    margin: 10px;
     border-radius: 9px;
     border: none;
     width: 80px;

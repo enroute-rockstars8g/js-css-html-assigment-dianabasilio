@@ -1,4 +1,34 @@
+function favColor() {
+    console.log("button1")
+    const backgroundColor = document.getElementById('button1').style.backgroundColor;
+  
+    if(backgroundColor === 'rgb(255, 143, 163)') {
+      document.getElementById('button1').style.backgroundColor = 'rgb(229, 56, 59)';
+    } else {
+      document.getElementById('button1').style.backgroundColor = 'rgb(255, 143, 163)';
+  
+    }
+  }
 
+let count = 0;
+function hobbies(){
+    let hobbies = ["Play guitar", "Code", "Going to concerts/festivals", "Spent time family/friends", "Skate","Watch documentals"];
+    console.log(hobbies.length);
+
+    if (count <= hobbies.length)
+        {
+        
+        document.getElementById('showNames').innerHTML = hobbies[count];
+        count +=1;
+        console.log(count)
+        if (count == hobbies.length){
+            count = 0;
+            console.log("inicio")
+        }
+        
+        }
+
+}
 function Fibo(){
     let number2 = parseInt(document.getElementById("inputFibo").value);
     console.log(number2);
