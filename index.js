@@ -12,7 +12,7 @@ function favColor() {
 
 let count = 0;
 function hobbies(){
-    let hobbies = ["Play guitar", "Code", "Going to concerts/festivals", "Spent time with family/friends", "Skate","Watch documentals",'Astronomy/Physics'];
+    let hobbies = ["Play guitar", "Code", "Going to concerts/festivals", "Spend time with family/friends", "Skate","Watch documentals",'Astronomy/Physics'];
     console.log(hobbies.length);
 
     if (count <= hobbies.length)
