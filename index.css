@@ -74,4 +74,15 @@ button:hover{
 .fa-fan:hover{
     transform: rotate(-130deg);
 }
+.teacher-images{
+    display:none;
+    transition:  3s;
+}
+
+
+
+.teacher:hover > .teacher-images{
+    display: flex;
+    justify-content: space-around;
+  }
 

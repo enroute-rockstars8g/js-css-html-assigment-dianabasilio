@@ -82,3 +82,7 @@ function Factorial(){
 
 }
 
+function factText(){
+    window.location.href = "https://www.mathsisfun.com/numbers/fibonacci-sequence.html";
+}
+
