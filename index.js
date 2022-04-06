@@ -12,7 +12,7 @@ function favColor() {
 
 let count = 0;
 function hobbies(){
-    let hobbies = ["Play guitar", "Code", "Going to concerts/festivals", "Spent time with family/friends", "Skate","Watch documentals"];
+    let hobbies = ["Play guitar", "Code", "Going to concerts/festivals", "Spent time with family/friends", "Skate","Watch documentals",'Astronomy/Physics'];
     console.log(hobbies.length);
 
     if (count <= hobbies.length)
@@ -46,6 +46,8 @@ function Fibo(){
     paragraph.innerHTML = "Fibonacci of <b>"+number2+"</b>= "+fibonacci[fibonacci.length - 1];
     container.appendChild(paragraph);
 
+    document.getElementById("inputFibo").value = '';
+
 }
 
 
@@ -76,6 +78,7 @@ function Factorial(){
     const paragraph = document.createElement("p");
     paragraph.innerHTML = "Factorial of <b>"+number1+"</b>= "+answerFact;
     container.appendChild(paragraph);
+    document.getElementById("inputFactorial").value = '';
 
 }
 
