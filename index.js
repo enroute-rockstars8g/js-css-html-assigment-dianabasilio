@@ -30,6 +30,8 @@ function hobbies(){
 
 }
 function Fibo(){
+    const container = document.getElementById("fiboContainer");
+    container.innerText = '';
     let number2 = parseInt(document.getElementById("inputFibo").value);
     console.log(number2);
     
@@ -41,7 +43,6 @@ function Fibo(){
     }
     console.log(fibonacci);
 
-    const container = document.getElementById("fiboContainer");
     const paragraph = document.createElement("p");
     paragraph.innerHTML = "Fibonacci of <b>"+number2+"</b>= "+fibonacci[fibonacci.length - 1];
     container.appendChild(paragraph);
@@ -57,6 +58,8 @@ function Fibo(){
 
 
 function Factorial(){
+    const container = document.getElementById("fiboFactorial");
+    container.innerText = '';
     const number1 = parseInt(document.getElementById("inputFactorial").value);
     console.log(number1);
 
@@ -79,7 +82,6 @@ function Factorial(){
         answerFact = 1;
     }
 
-    const container = document.getElementById("fiboFactorial");
     const paragraph = document.createElement("p");
     paragraph.innerHTML = "Factorial of <b>"+number1+"</b>= "+answerFact;
     container.appendChild(paragraph);
