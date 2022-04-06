@@ -47,6 +47,11 @@ function Fibo(){
     container.appendChild(paragraph);
 
     document.getElementById("inputFibo").value = '';
+    for (let i = 1; i <= fibonacci[fibonacci.length - 1]; i++){
+        let emoji = document.createElement("p");
+        emoji.innerHTML = '&#128151;';
+        container.appendChild(emoji);
+    };
 
 }
 
@@ -79,6 +84,12 @@ function Factorial(){
     paragraph.innerHTML = "Factorial of <b>"+number1+"</b>= "+answerFact;
     container.appendChild(paragraph);
     document.getElementById("inputFactorial").value = '';
+
+    for (let i = 1; i <= answerFact; i++){
+        let emoji = document.createElement("p");
+        emoji.innerHTML = '&#128151;';
+        container.appendChild(emoji);
+    };
 
 }
 
